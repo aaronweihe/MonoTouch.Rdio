@@ -8,9 +8,15 @@ Also, there is a sample project to show how to use the bindings.
 Usage
 -----
 
-MonoTouch.Rdio is the binding project. To get the Rdio.dll, you may either build it in Visual Stuido or Xamarin Stuido or just run 'make' in the binding directory.
+MonoTouch.Rdio is the binding project. To get the Rdio.dll, you may either build it in Visual Stuido or Xamarin Stuido or just run `make` in the binding directory.
 
 After Rdio.dll is generated, add Rdio.dll into your MonoTouch app's references.
+
+Don't forget to [apply for an API key](http://developer.rdio.com/page) to get started.
+
+Then, call `Rdio.InitWithConsumerKeyandSecretdelegate` to initialize a `Rdio` object.
+
+And you are good to go!
 
 TODO
 ----
