@@ -12,10 +12,10 @@ namespace MonoTouch.Rdio.Sample
 	partial class HelloView
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnPlay { get; set; }
+		public MonoTouch.UIKit.UIButton btnPlay { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnLogin { get; set; }
+		public MonoTouch.UIKit.UIButton btnLogin { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{

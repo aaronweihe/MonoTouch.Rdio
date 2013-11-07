@@ -38,6 +38,7 @@ namespace MonoTouch.Rdio.Sample
 					MyRdio.Player.PlaySource("t2742133");
 				}
 			};
+
 		}
 		
 	}
@@ -65,6 +66,11 @@ namespace MonoTouch.Rdio.Sample
 		{
 			_view.IsLoggedIn = true;
 		}
+	}
+
+	class MyRDPlayerDelegate :RDPlayerDelegate
+	{
+
 	}
 }
 

@@ -50,8 +50,6 @@
     <ObjcBindingNativeLibrary Include="Rdio.a" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Rdio.linkwith.cs">
-      <DependentUpon>Rdio.a</DependentUpon>
-    </Compile>
+    <Compile Include="Rdio.linkwith.cs" />
   </ItemGroup>
 </Project>
