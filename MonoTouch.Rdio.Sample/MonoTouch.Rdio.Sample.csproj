@@ -108,4 +108,10 @@
   <ItemGroup>
     <InterfaceDefinition Include="HelloView.xib" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MonoTouch.Rdio\MonoTouch.Rdio.csproj">
+      <Project>{541B54DE-113C-4BC7-81C0-4284807CE894}</Project>
+      <Name>MonoTouch.Rdio</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

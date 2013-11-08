@@ -1,10 +1,11 @@
 // WARNING
 //
 // This file has been generated automatically by Xamarin Studio to store outlets and
-// actions made in the Xcode designer. If it is removed, they will be lost.
+// actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
 using MonoTouch.Foundation;
+using System.CodeDom.Compiler;
 
 namespace MonoTouch.Rdio.Sample
 {
@@ -12,21 +13,13 @@ namespace MonoTouch.Rdio.Sample
 	partial class HelloView
 	{
 		[Outlet]
-		public MonoTouch.UIKit.UIButton btnPlay { get; set; }
-
-		[Outlet]
-		public MonoTouch.UIKit.UIButton btnLogin { get; set; }
+		public MonoTouch.UIKit.UIButton btnPlay { get; private set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
 			if (btnPlay != null) {
 				btnPlay.Dispose ();
 				btnPlay = null;
-			}
-
-			if (btnLogin != null) {
-				btnLogin.Dispose ();
-				btnLogin = null;
 			}
 		}
 	}
