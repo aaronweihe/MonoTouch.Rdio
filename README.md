@@ -14,7 +14,7 @@ After Rdio.dll is generated, add Rdio.dll into your MonoTouch app's references.
 
 Don't forget to [apply for an API key](http://developer.rdio.com/page) to get started.
 
-Then, call `Rdio.InitWithConsumerKeyandSecretdelegate` to initialize a `Rdio` object.
+Then, call constructor: `new Rdio ("", "", null);` to initialize an `Rdio` object. First argument is your Rdio API key. Second is shared secret. And third is an `RdioDelegate`. 
 
 And you are good to go!
 
