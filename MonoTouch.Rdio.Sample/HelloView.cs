@@ -21,7 +21,10 @@ namespace MonoTouch.Rdio.Sample
 		{
 			base.ViewDidLoad();
 			// Perform any additional setup after loading the view, typically from a nib.
-			btnPlay.TouchDown += (sender, e) => rdio.Player.PlaySource ("t2742133");
+			btnPlay.TouchDown += (sender, e) => {
+				var player =rdio.Player;
+				player.PlaySource ("a997982");
+			};
 		}
 	}
 }
