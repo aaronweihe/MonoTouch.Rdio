@@ -1,3 +1,6 @@
+[Rdio is acquired and its API is shutdown](http://blog.rdio.com/developers/2015/12/api-shutdown.html).
+========================================
+
 MonoTouch.Rdio
 ==============
 
